@@ -1,15 +1,19 @@
 
-public class Vehicles {
+public abstract class Vehicles {
+	int tankSize;
+	 
+	public int GetTankCapacity(){
+		
+		 
+		 return tankSize;
+	 }
+	 
 	
-	public static void main (String[] args){
-		new Car();
-		Car.printCar();
-		System.out.println("---------------------");
-		new Motorcycle();
-		Motorcycle.printMoto();
-		System.out.println("---------------------");
-		new Truck();
-		Truck.printTruck();
+	 public static void main (String[] args){
+		
+		
+		;
+		
 	}
 
 }
