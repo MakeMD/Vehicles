@@ -10,10 +10,5 @@ public class Truck extends Vehicles  {
 		return speed;
 	}
 	
-	static Truck daf = new Truck();
 	
-	static	int  truckTank = daf.GetTankCapacity(); 
-	static boolean start = daf.GetStarted();
-	static int truckFuel = daf.GetTankFuel();
-	static int truckspeed = daf.Driving();
 }
