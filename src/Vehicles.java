@@ -1,5 +1,4 @@
-
-public abstract class Vehicles {
+public abstract class Vehicles implements IDriveable {
 	int tankSize, tankFuel, speed;
 	 
 	public int GetTankCapacity(){
@@ -18,10 +17,7 @@ public abstract class Vehicles {
 		return tankFuel;
 	}
 	
-	public int Driving(){
-		
-		return speed;
-	}
+	
 	
 	 
 
